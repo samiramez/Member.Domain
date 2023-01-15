@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Member.Application
 {
-    internal class MemberService : IMemberService
+    public class MemberService : IMemberService
     {
         private readonly IMemberRepositry memberRepositry;
         public MemberService(IMemberRepositry memberRepositry)

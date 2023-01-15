@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Member.Application
+namespace Member.Infrastructure
 {
-    public interface IMemberService
+    public class Class1
     {
-        List<Domain.Member> GetAllMembers();
     }
 }

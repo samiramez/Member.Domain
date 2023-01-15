@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Member.Application
 {
-    internal interface IMemberRepositry
+    public interface IMemberRepositry
     {
         List<Domain.Member> GetAllMembers();
     }
